@@ -13,6 +13,7 @@
 		0132CF212847BFE100D9BB00 /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132CF202847BFE100D9BB00 /* GridViewController.swift */; };
 		0132CF232847C00800D9BB00 /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132CF222847C00800D9BB00 /* TextCell.swift */; };
 		0132CF262847C10600D9BB00 /* InsetItemGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132CF252847C10600D9BB00 /* InsetItemGridViewController.swift */; };
+		0132CF292847C2AC00D9BB00 /* TwoColumnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0132CF282847C2AC00D9BB00 /* TwoColumnViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0132CF202847BFE100D9BB00 /* GridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewController.swift; sourceTree = "<group>"; };
 		0132CF222847C00800D9BB00 /* TextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
 		0132CF252847C10600D9BB00 /* InsetItemGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetItemGridViewController.swift; sourceTree = "<group>"; };
+		0132CF282847C2AC00D9BB00 /* TwoColumnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoColumnViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		0132CF092847BF1C00D9BB00 /* Composition-layout-apple-docs */ = {
 			isa = PBXGroup;
 			children = (
+				0132CF272847C29A00D9BB00 /* Two Column */,
 				0132CF242847C0D000D9BB00 /* Inset Items Grid */,
 				0132CF1F2847BFCD00D9BB00 /* Grid Layout */,
 				0132CF1E2847BFA200D9BB00 /* Support */,
@@ -89,6 +92,14 @@
 				0132CF252847C10600D9BB00 /* InsetItemGridViewController.swift */,
 			);
 			path = "Inset Items Grid";
+			sourceTree = "<group>";
+		};
+		0132CF272847C29A00D9BB00 /* Two Column */ = {
+			isa = PBXGroup;
+			children = (
+				0132CF282847C2AC00D9BB00 /* TwoColumnViewController.swift */,
+			);
+			path = "Two Column";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +174,7 @@
 				0132CF0B2847BF1C00D9BB00 /* AppDelegate.swift in Sources */,
 				0132CF0D2847BF1C00D9BB00 /* SceneDelegate.swift in Sources */,
 				0132CF232847C00800D9BB00 /* TextCell.swift in Sources */,
+				0132CF292847C2AC00D9BB00 /* TwoColumnViewController.swift in Sources */,
 				0132CF262847C10600D9BB00 /* InsetItemGridViewController.swift in Sources */,
 				0132CF212847BFE100D9BB00 /* GridViewController.swift in Sources */,
 			);
